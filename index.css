@@ -108,3 +108,20 @@ body {
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.half-width-container {
+  width: 50%;
+  margin: 0 auto; /* Center the container */
+}
+
+/* Custom CSS for the scrollable right section */
+.scrollable-right-section {
+  margin-left: calc(0%); /* Adjust as needed */
+  width: calc(100%); /* Adjust as needed */
+  overflow-y: auto; /* Allow scrolling if content exceeds height */
+}
+
+.half-width-container {
+  width: 75%;
+  margin: 0 auto;
+}
