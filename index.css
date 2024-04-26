@@ -1,5 +1,5 @@
 :root {
-  --jumbotron-padding-y: 3rem;
+  --jumbotron-padding-y: 1rem;
 }
 
 .jumbotron {
@@ -124,4 +124,12 @@ body {
 .half-width-container {
   width: 75%;
   margin: 0 auto;
+}
+
+.btn-primary {
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #3e468f;
+  color: #ffffff; /* Set text color to white */
 }
