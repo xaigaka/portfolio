@@ -93,8 +93,9 @@
                                 <h1 class="jumbotron-heading"><i>About Me</i></h1>
                                 <h2>Designer - Developer - Artist</h2>
                                 <p class="lead text-muted" style="font-weight: 500; color: black;">I'm a web designer and developer living in the Orlando area. As a web designer and an artist, I strive to maximize usability while contributing my sense of aesthetics to the digital experiences that I craft.</p>
-                                <p>
-                                    <a href="portfolio.html" class="btn btn-primary my-2">View my works</a>
+                                <p class="row justify-content-between" style="margin-left: 5%; margin-right: 5%;">
+                                    <a href="portfolio.html" class="col-md-5 justify-content-center btn btn-primary my-2">View my works</a>
+                                    <a href="#contact" class="col-md-5 justify-content-center btn btn-primary my-2">Get in touch with me</a>
                                 </p>
                             </div>
                         </div>
@@ -170,6 +171,9 @@
     <script>
         $(document).ready(function(){
             $(".nav-link[href='#contact']").click(function(){
+                $("#contact-panel").slideToggle();
+            });
+            $(".btn[href='#contact']").click(function(){
                 $("#contact-panel").slideToggle();
             });
         });
